@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+-(void) checkSignal;
+
+@property (nonatomic, strong) IBOutlet UILabel *lblSignalStatus;
+
 @end
